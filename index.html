@@ -339,106 +339,122 @@
 
         <!-- Section 1: Intro -->
         <section id="introSection" class="min-h-screen flex items-center justify-center p-6">
-            <div class="glass-card rounded-3xl p-10 md:p-12 text-center max-w-4xl mx-auto fade-in">
-                <div class="mb-8">
-                    <h1 class="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">WOOP</h1>
-                    <p class="text-xl md:text-2xl text-gray-300 mb-2">Wish • Outcome • Obstacle • Plan</p>
-                    <p class="text-lg text-gray-400">科学的に証明された目標達成メソッド</p>
+            <div class="w-full max-w-md mx-auto flex flex-col items-center">
+                <div class="glass-card rounded-2xl w-full p-8 text-center fade-in">
+                    <div class="mb-8">
+                        <h1 class="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">WOOP</h1>
+                        <p class="text-base sm:text-lg md:text-xl text-gray-300 mb-2 text-center sm:text-left leading-relaxed break-words">
+                            Wish • Outcome • Obstacle • Plan
+                        </p>
+                        <p class="text-base sm:text-lg md:text-xl text-gray-400 text-center sm:text-left leading-relaxed break-words">
+                            科学的に証明された目標達成メソッド
+                        </p>
+                    </div>
+                    
+                    <div class="space-y-6 mb-12">
+                        <div class="text-left">
+                            <div class="flex items-center mb-4">
+                                <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+                                    <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-xl font-semibold text-white">Wish (願い)</h3>
+                            </div>
+                            <p class="text-gray-300 leading-relaxed pl-11 text-base sm:text-lg sm:pl-11 text-left break-words">
+                                あなたが本当に達成したい、挑戦的で実現可能な願いを具体的に書き出します。
+                            </p>
+                        </div>
+                        <div class="text-left">
+                            <div class="flex items-center mb-4">
+                                <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+                                    <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-xl font-semibold text-white">Outcome (最高の結果)</h3>
+                            </div>
+                            <p class="text-gray-300 leading-relaxed pl-11 text-base sm:text-lg sm:pl-11 text-left break-words">
+                                その願いが実現したら、どんな最高の気分や結果が待っているかをイメージします。
+                            </p>
+                        </div>
+                        <div class="text-left">
+                            <div class="flex items-center mb-4">
+                                <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+                                    <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-xl font-semibold text-white">Obstacle (内なる障害)</h3>
+                            </div>
+                            <p class="text-gray-300 leading-relaxed pl-11 text-base sm:text-lg sm:pl-11 text-left break-words">
+                                願いを叶える上で、あなた自身の内面にある最も大きな障害を特定します。
+                            </p>
+                        </div>
+                        <div class="text-left">
+                            <div class="flex items-center mb-4">
+                                <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+                                    <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-xl font-semibold text-white">Plan (計画)</h3>
+                            </div>
+                            <p class="text-gray-300 leading-relaxed pl-11 text-base sm:text-lg sm:pl-11 text-left break-words">
+                                もしその障害が現れたら、どう乗り越えるかの具体的な対処法を準備します。
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <button id="startWoopButton" class="bg-gradient-to-r from-blue-500 to-blue-600 text-white font-bold py-4 px-8 rounded-xl text-xl hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
+                        <svg class="w-6 h-6 inline mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                        Start WOOP
+                    </button>
                 </div>
-                
-                <div class="space-y-6 mb-12">
-                    <div class="text-left">
-                        <div class="flex items-center mb-4">
-                            <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center mr-3">
-                                <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
-                                </svg>
-                            </div>
-                            <h3 class="text-xl font-semibold text-white">Wish (願い)</h3>
-                        </div>
-                        <p class="text-gray-300 leading-relaxed pl-11">あなたが本当に達成したい、挑戦的で実現可能な願いを具体的に書き出します。</p>
-                    </div>
-                    <div class="text-left">
-                        <div class="flex items-center mb-4">
-                            <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center mr-3">
-                                <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                                </svg>
-                            </div>
-                            <h3 class="text-xl font-semibold text-white">Outcome (最高の結果)</h3>
-                        </div>
-                        <p class="text-gray-300 leading-relaxed pl-11">その願いが実現したら、どんな最高の気分や結果が待っているかをイメージします。</p>
-                    </div>
-                    <div class="text-left">
-                        <div class="flex items-center mb-4">
-                            <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center mr-3">
-                                <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
-                                </svg>
-                            </div>
-                            <h3 class="text-xl font-semibold text-white">Obstacle (内なる障害)</h3>
-                        </div>
-                        <p class="text-gray-300 leading-relaxed pl-11">願いを叶える上で、あなた自身の内面にある最も大きな障害を特定します。</p>
-                    </div>
-                    <div class="text-left">
-                        <div class="flex items-center mb-4">
-                            <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center mr-3">
-                                <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
-                                </svg>
-                            </div>
-                            <h3 class="text-xl font-semibold text-white">Plan (計画)</h3>
-                        </div>
-                        <p class="text-gray-300 leading-relaxed pl-11">もしその障害が現れたら、どう乗り越えるかの具体的な対処法を準備します。</p>
-                    </div>
-                </div>
-                
-                <button id="startWoopButton" class="bg-gradient-to-r from-blue-500 to-blue-600 text-white font-bold py-4 px-8 rounded-xl text-xl hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
-                    <svg class="w-6 h-6 inline mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                    </svg>
-                    Start WOOP
-                </button>
             </div>
         </section>
 
         <!-- Section 2: Input Form -->
         <section id="formSection" class="hidden">
-            <div class="glass-card rounded-3xl p-10 md:p-12 space-y-8 fade-in max-w-4xl mx-auto">
-                <div class="form-group" style="animation-delay: 0.1s;">
-                    <label for="wishInput" class="block text-xl font-semibold mb-4 text-white">Wish <span class="text-sm font-normal text-gray-400">(願い)</span></label>
-                    <textarea id="wishInput" rows="3" class="w-full bg-gray-900/30 border border-gray-600 rounded-xl p-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none transition-all duration-300 text-white placeholder-gray-400" placeholder="あなたが本当に達成したいことは？"></textarea>
+            <div class="w-full max-w-md mx-auto flex flex-col items-center">
+                <div class="glass-card rounded-2xl w-full p-8 space-y-8 fade-in">
+                    <div class="form-group" style="animation-delay: 0.1s;">
+                        <label for="wishInput" class="block text-xl font-semibold mb-4 text-white">Wish <span class="text-sm font-normal text-gray-400">(願い)</span></label>
+                        <textarea id="wishInput" rows="3" class="w-full bg-gray-900/30 border border-gray-600 rounded-xl p-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none transition-all duration-300 text-white placeholder-gray-400" placeholder="あなたが本当に達成したいことは？"></textarea>
+                    </div>
+                    <div class="form-group" style="animation-delay: 0.2s;">
+                        <label for="outcomeInput" class="block text-xl font-semibold mb-4 text-white">Outcome <span class="text-sm font-normal text-gray-400">(最高の結果)</span></label>
+                        <textarea id="outcomeInput" rows="3" class="w-full bg-gray-900/30 border border-gray-600 rounded-xl p-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none transition-all duration-300 text-white placeholder-gray-400" placeholder="それが実現したら、どんな気持ち？何が得られる？"></textarea>
+                    </div>
+                    <div class="form-group" style="animation-delay: 0.3s;">
+                        <label for="obstacleInput" class="block text-xl font-semibold mb-4 text-white">Obstacle <span class="text-sm font-normal text-gray-400">(内なる障害)</span></label>
+                        <textarea id="obstacleInput" rows="3" class="w-full bg-gray-900/30 border border-gray-600 rounded-xl p-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none transition-all duration-300 text-white placeholder-gray-400" placeholder="あなたを妨げる、あなた自身の考えや習慣は？"></textarea>
+                    </div>
+                    <div class="form-group" style="animation-delay: 0.4s;">
+                        <label for="planInput" class="block text-xl font-semibold mb-4 text-white">Plan <span class="text-sm font-normal text-gray-400">(計画)</span></label>
+                        <textarea id="planInput" rows="3" class="w-full bg-gray-900/30 border border-gray-600 rounded-xl p-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none transition-all duration-300 text-white placeholder-gray-400" placeholder="「もし[障害]が起きたら、私は[行動]する」"></textarea>
+                    </div>
                 </div>
-                <div class="form-group" style="animation-delay: 0.2s;">
-                    <label for="outcomeInput" class="block text-xl font-semibold mb-4 text-white">Outcome <span class="text-sm font-normal text-gray-400">(最高の結果)</span></label>
-                    <textarea id="outcomeInput" rows="3" class="w-full bg-gray-900/30 border border-gray-600 rounded-xl p-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none transition-all duration-300 text-white placeholder-gray-400" placeholder="それが実現したら、どんな気持ち？何が得られる？"></textarea>
+                <div class="mt-8 text-center w-full" style="animation-delay: 0.5s;">
+                    <button id="commitButton" class="hold-button w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white font-bold py-5 px-10 rounded-xl text-xl hover:from-blue-600 hover:to-blue-700 transition-all duration-300 disabled:from-gray-500 disabled:to-gray-600 disabled:cursor-not-allowed transform hover:scale-105 shadow-lg" disabled>
+                        <span class="progress"></span>
+                        <span class="relative flex items-center justify-center">
+                            <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                            </svg>
+                            Hold to Commit
+                        </span>
+                    </button>
                 </div>
-                <div class="form-group" style="animation-delay: 0.3s;">
-                    <label for="obstacleInput" class="block text-xl font-semibold mb-4 text-white">Obstacle <span class="text-sm font-normal text-gray-400">(内なる障害)</span></label>
-                    <textarea id="obstacleInput" rows="3" class="w-full bg-gray-900/30 border border-gray-600 rounded-xl p-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none transition-all duration-300 text-white placeholder-gray-400" placeholder="あなたを妨げる、あなた自身の考えや習慣は？"></textarea>
-                </div>
-                <div class="form-group" style="animation-delay: 0.4s;">
-                    <label for="planInput" class="block text-xl font-semibold mb-4 text-white">Plan <span class="text-sm font-normal text-gray-400">(計画)</span></label>
-                    <textarea id="planInput" rows="3" class="w-full bg-gray-900/30 border border-gray-600 rounded-xl p-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none transition-all duration-300 text-white placeholder-gray-400" placeholder="「もし[障害]が起きたら、私は[行動]する」"></textarea>
-                </div>
-            </div>
-            <div class="mt-12 text-center" style="animation-delay: 0.5s;">
-                <button id="commitButton" class="hold-button w-full max-w-md bg-gradient-to-r from-blue-500 to-blue-600 text-white font-bold py-5 px-10 rounded-xl text-xl hover:from-blue-600 hover:to-blue-700 transition-all duration-300 disabled:from-gray-500 disabled:to-gray-600 disabled:cursor-not-allowed transform hover:scale-105 shadow-lg" disabled>
-                    <span class="progress"></span>
-                    <span class="relative flex items-center justify-center">
-                        <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                        </svg>
-                        Hold to Commit
-                    </span>
-                </button>
             </div>
         </section>
         
         <!-- Section 3: Commitment Card & Actions -->
         <section id="cardSection" class="hidden">
-            <div class="fade-in max-w-4xl mx-auto">
-                <div id="commitmentCard" class="w-full max-w-2xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden border-0">
+            <div class="w-full max-w-md mx-auto flex flex-col items-center min-h-screen justify-center">
+                <div id="commitmentCard" class="w-full bg-white rounded-2xl shadow-2xl overflow-hidden border-0">
                     <div id="cardHeader" class="p-8 bg-gradient-to-br from-blue-500 to-blue-600">
                         <h2 id="cardWishText" class="text-2xl font-bold text-center text-white leading-relaxed"></h2>
                     </div>
@@ -462,22 +478,20 @@
                 </div>
 
                 <!-- 進捗機能 -->
-                <div class="mt-10 space-y-6 max-w-2xl mx-auto">
-                    <div class="glass-card rounded-3xl p-8 text-center">
-                        <h3 class="text-xl font-semibold mb-6 text-white">今日の進捗</h3>
-                        <div class="w-full bg-gray-700 rounded-full mb-4" style="height: 16px;">
-                            <div id="cardProgressBar" class="bg-gradient-to-r from-blue-500 to-blue-600 rounded-full transition-all duration-500" style="width: 0%; height: 16px; position: relative;">
-                                <div class="progress-handle"></div>
-                            </div>
+                <div class="glass-card w-full mt-6 p-8 text-center rounded-2xl">
+                    <h3 class="text-xl font-semibold mb-6 text-white">今日の進捗</h3>
+                    <div class="w-full bg-gray-700 rounded-full mb-4" style="height: 16px;">
+                        <div id="cardProgressBar" class="bg-gradient-to-r from-blue-500 to-blue-600 rounded-full transition-all duration-500" style="width: 0%; height: 16px; position: relative;">
+                            <div class="progress-handle"></div>
                         </div>
-                        <div class="flex items-center justify-center space-x-4">
-                            <span id="cardProgressText" class="progress-text">進捗: 0%</span>
-                            <button id="cardProgressUpdateButton" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-all duration-300 text-sm font-medium">進捗を更新</button>
-                        </div>
+                    </div>
+                    <div class="flex items-center justify-center space-x-4">
+                        <span id="cardProgressText" class="progress-text">進捗: 0%</span>
+                        <button id="cardProgressUpdateButton" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-all duration-300 text-sm font-medium">進捗を更新</button>
                     </div>
                 </div>
 
-                <div id="actions" class="mt-10 text-center space-y-4 max-w-2xl mx-auto">
+                <div id="actions" class="mt-6 text-center space-y-4 w-full">
                     <div class="flex flex-col sm:flex-row gap-4 justify-center">
                         <button id="downloadButton" class="flex-1 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold py-3 px-8 rounded-xl hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
                             <svg class="w-5 h-5 inline mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -507,7 +521,7 @@
                             </svg>
                             Copy Link
                         </button>
-                        <span id="copyFeedback" class="text-green-400 ml-2 hidden">Copied!</span>
+                    <span id="copyFeedback" class="text-green-400 ml-2 hidden">Copied!</span>
                     </div>
                 </div>
             </div>
@@ -516,7 +530,7 @@
     </div>
 
     <footer class="absolute bottom-0 left-0 w-full p-4 text-center">
-        <p class="text-xs text-gray-500 max-w-2xl mx-auto">ご注意: 本ツールは、目標設定の思考を整理・記録するためのものです。特定の成果を保証するものではなく、また医学的・心理学的な助言に代わるものでもありません。ご自身の判断と責任においてご利用ください。</p>
+        <!-- 注意書き文言を削除 -->
     </footer>
 
     <script>
@@ -688,7 +702,7 @@
 
             downloadButton.addEventListener('click', () => {
                 const cardElement = document.getElementById('commitmentCard');
-                html2canvas(cardElement, {
+                html2canvas(cardElement, { 
                     backgroundColor: '#ffffff',
                     useCORS: true,
                     scale: 1.5,
